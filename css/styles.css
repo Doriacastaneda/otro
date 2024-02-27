@@ -1,0 +1,194 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+.cuerpoPagina{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.fondoLogo{
+    background-color: #f6f9f9;
+}
+
+.logoInicial{
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 0px;
+    display: block;
+}
+
+.header{
+    display: flex;
+    background: url(../assets/img/bg-header.jpg);
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.header-info{
+    text-align: center;
+    width: 700px;
+}
+
+.marca{
+    font-size: 108px;
+    color: white;
+}
+
+.separador{
+    border-bottom: solid rgb(0, 208, 255);
+}
+
+.botonAccion{
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(0, 208, 255);
+    padding: 15px 35px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.disenioSimple{
+    background-color: #f6f9f9;
+    padding: 100px;
+}
+
+.contenedordisenioSimple{
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+h3,h3{
+    font-size: 40px;
+    color: #383838;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.disenioParrafo{
+    color: #8e8e8e;
+}
+
+.contenedorServicios{
+    width: 1100px;
+    padding: 100px;
+    margin: auto;
+    display: flex;
+}
+
+.caja-servicio{
+    width: 33.33%;
+    margin: auto;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+
+.caja-servicio img{
+    margin-bottom: 12px;
+}
+
+.caja-servicio h5{
+    color: #474747;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.caja-servicio span{
+    color: #6a6a6a;
+}
+
+.contenedorShowcase{
+    background-color: #f6f9f9;
+
+}
+
+.showcase{
+    padding: 100px 0px;
+    width: 1100px;
+    margin: auto;
+}
+
+.encabezadoShowcase{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.encabezadoShowcase h2{
+    margin-bottom: 20px;
+}
+
+.encabezadoShowcase span{
+    color: #6a6a6a;
+}
+
+.caja-galeria{
+    width: 33.33%;
+}
+
+.fila{
+    display: flex;
+}
+
+
+.StayWithUs{
+    background: url(../assets/img/bg-stay.jpg);
+}
+
+.contenedorStay{
+    padding: 50px 0px;
+    width: 1100px;
+    margin: auto;
+}
+
+.encabezadoStay{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.encabezadoStay h2{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.encabezadoStay span{
+    color: #8e8e8e;
+}
+
+.contacto{
+    margin: auto;
+    max-width: 600px;
+}
+
+.input{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #8e8e8e;
+    border-radius: 5px;
+}
+
+.acciones{
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
+}
+
+.check{
+    color: white;
+}
+
+.footer{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
